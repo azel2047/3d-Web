@@ -1,6 +1,7 @@
 import { ImageResponse } from "next/og";
 
 export const contentType = "image/png";
+export const dynamic = "force-static";
 
 export default function OpengraphImage() {
   return new ImageResponse(

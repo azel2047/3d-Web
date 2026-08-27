@@ -1,6 +1,7 @@
 import { ImageResponse } from "next/og";
 
 export const contentType = "image/svg+xml";
+export const dynamic = "force-static";
 
 export default function Icon() {
   return new ImageResponse(
